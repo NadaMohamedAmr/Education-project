@@ -1,0 +1,92 @@
+/* Primary Color: #98AA28 
+Secondary Color: #A2BDAA
+Body text color: #78847D
+Dark Green: #253D32 
+White Color: #FFFFFF  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary:#98AA28;
+    --color-Secondary:#A2BDAA;
+    --color-Bodytext:#78847D;
+    --color-Darkgreen:#253D32;
+    --color-white:#FFFFFF;
+}
+.primary-color { 
+    color:#98AA28;
+}
+.darkgreen-color { 
+    color:#253D32;
+}
+.bg-primary-color { 
+    background-color:#98AA28;
+}
+.secondary-color{
+   color: #A2BDAA
+}
+
+body {
+    font-family:"Rubic",sans-serif;
+    src: url(../Fonts/Rubik-VariableFont_wght.ttf) format('truetype');
+
+}
+
+.Header{
+    background: url(../images/hero-bg.png)  center;
+    background-size: cover;
+    min-height: 650px;
+
+}
+
+/* Start Header Section */
+.navbar {
+background-color:var(--color-Darkgreen);
+}
+.navbar .navbar-nav .nav-link{
+    color: var(--color-white);
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--color-primary);
+}
+.navbar .search {
+    border-left: 1px solid var(--color-primary); 
+}
+.navbar .search i {
+    font-size: 20px;
+    color: var(--color-primary);
+}
+.navbar .navbar-toggler {
+    color: var(--color-white);
+   border: var(--color-white);
+}
+/* .main-btn {
+    background-color: var(--color-primary);
+    
+} */
+
+/* /* End Header Section */
+
+/* start-hero-section */
+.Hero{
+    color:var(--color-white);
+}
+
+/* End-hero-section */
+/* Start-Newsletter */
+.Newsletter {
+    background: url(../images/subscribe-bg.png);
+    background-size: cover;
+    min-height: 40vh;
+    color:var(--color-white)
+}
+/* End-Newsletter */
+/* Start-footer */
+.Footer h5{
+    color: var(--color-Darkgreen);
+}
+/* End-footer */
